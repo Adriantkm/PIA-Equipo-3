@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>803</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Product Sans</family>
+    <pointsize>10</pointsize>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>130</y>
+      <width>301</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Product Sans</family>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #921700;</string>
+    </property>
+    <property name="text">
+     <string>Módulos:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPuntoVenta">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>310</y>
+      <width>300</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #e2e2e2;
+	border: 2px solid rgb(212, 212, 212);
+	border-radius: 10px;
+}
+
+QPushButton:pressed {
+	background-color: rgb(207, 207, 207);
+}</string>
+    </property>
+    <property name="text">
+     <string>Punto de Venta</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>0</y>
+      <width>571</width>
+      <height>811</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Recursos/img/panel.1.webp</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEmpleados">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>310</y>
+      <width>300</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #e2e2e2;
+	border: 2px solid rgb(212, 212, 212);
+	border-radius: 10px;
+}
+
+QPushButton:pressed {
+	background-color: rgb(207, 207, 207);
+}</string>
+    </property>
+    <property name="text">
+     <string>Empleados</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnClientes">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>550</y>
+      <width>300</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #e2e2e2;
+	border: 2px solid rgb(212, 212, 212);
+	border-radius: 10px;
+}
+
+QPushButton:pressed {
+	background-color: rgb(207, 207, 207);
+}</string>
+    </property>
+    <property name="text">
+     <string>Clientes</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnProductos">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>550</y>
+      <width>300</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #e2e2e2;
+	border: 2px solid rgb(212, 212, 212);
+	border-radius: 10px;
+}
+
+QPushButton:pressed {
+	background-color: rgb(207, 207, 207);
+}</string>
+    </property>
+    <property name="text">
+     <string>Productos</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
